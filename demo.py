@@ -74,10 +74,10 @@ with gr.Blocks() as demo:
                     with gr.Column():
                         with gr.Row():
                             sorce_language = gr.Dropdown(
-                                choices=["英文", "中文"], label="源语言"
+                                value="英文", choices=["英文", "中文"], label="源语言"
                             )
                             target_language = gr.Dropdown(
-                                choices=["中文", "英文"], label="目标语言"
+                                value="中文", choices=["中文", "英文"], label="目标语言"
                             )
                 with gr.Row():
                     txt2translate = gr.Textbox(
