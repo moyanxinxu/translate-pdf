@@ -2,6 +2,8 @@
 
 这个Gradio应用结合了PDF显示和文本翻译功能，方便用户进行多语言文档处理。
 
+在线体验链接[HF-space](https://moyanxinxu-pdf-translate.hf.space)
+
 ## 主要功能
 
 * **PDF显示:**
